@@ -1,0 +1,9 @@
+---
+- name: creating folder
+  hosts: node3
+  become: true
+  tasks:
+    - name: creating the direcotry
+      shell:
+        cmd: mkdir srikanth
+
